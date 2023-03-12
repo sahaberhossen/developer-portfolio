@@ -5,14 +5,16 @@
 /*navbar area start*/
 .header-area {
   background: #fff8f3;
-  background-image: url(/images/header_bg.png);
+  background-image: url("/images/header_bg.png"), url(/images/developer.png);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right bottom, left center;
+  background-origin: content-box;
+  padding-left: 20px;
 }
 .container {
-  /* max-width: 1240px;
+  max-width: 1200px;
   margin: auto;
-  padding-top: 50px; */
+  padding-top: 50px;
 }
 .nav-title {
   font-weight: 800;
@@ -30,8 +32,9 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin: 0 234px;
-  padding-top: 50px;
+  /* margin: 50px 234px; */
+  /* max-width: 1240px;
+  margin: 50px auto; */
 }
 .menu {
   display: flex;
@@ -67,7 +70,25 @@
 .banner {
   display: flex;
   align-items: center;
-  margin: 0 234px;
-  padding-top: 50px;
+}
+.banner_title {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  color: #474747;
+}
+.banner_name {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 116px;
+  color: #181818;
+}
+.banner_para {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  color: #757575;
+  margin-bottom: 30px;
 }
 /* banner styles start */
