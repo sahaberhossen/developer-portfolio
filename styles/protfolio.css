@@ -1,6 +1,10 @@
 * {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
 }
 /*navbar area start*/
 .header-area {
@@ -14,7 +18,6 @@
 .container {
   max-width: 1200px;
   margin: auto;
-  padding-top: 50px;
 }
 .nav-title {
   font-weight: 800;
@@ -29,6 +32,7 @@
   color: #fd6e0a;
 }
 .navbar {
+  padding-top: 50px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -92,3 +96,126 @@
   margin-bottom: 30px;
 }
 /* banner styles start */
+
+/*about area start */
+.about {
+  width: 1140px;
+  margin: 130px auto;
+  text-align: center;
+}
+.about_title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+}
+.about_para {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 30px 0;
+  color: #757575;
+}
+.about_content {
+  background: #fff8f3;
+  padding: 131px 156px;
+}
+
+.about_info {
+  display: flex;
+  justify-content: space-around;
+}
+.info_title {
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+}
+.info_des {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+/*about area end*/
+
+/* skills area start */
+.skills_area {
+  margin: 130px 0;
+  text-align: center;
+}
+.skills_title {
+  margin-bottom: 30px;
+}
+.skill_items {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin-top: 70px;
+}
+.items {
+  padding: 30px;
+}
+.items img {
+  margin-bottom: 38px;
+}
+.items p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+
+/*resume items start */
+.resume {
+  margin: 130px 0;
+}
+.resume_title {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.resume_items {
+  display: flex;
+  justify-content: space-between;
+}
+.items_heading {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.items_left,
+.items_right {
+  padding: 20px;
+}
+
+.item_title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.item_des {
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.item_para {
+  margin-bottom: 20px;
+}
+.resume hr {
+  margin-bottom: 30px;
+}
+.center {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+/* footer area start */
+.footer-area {
+  background: #fff8f3;
+  padding: 130px 0;
+}
+.contact {
+  display: flex;
+}
+.fa-brands {
+  margin-right: 10px;
+  color: #fd6e0a;
+}
