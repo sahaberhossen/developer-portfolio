@@ -210,12 +210,29 @@ body {
 /* footer area start */
 .footer-area {
   background: #fff8f3;
-  padding: 130px 0;
+  padding: 130px 230px;
+}
+.footer-title {
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+.footer-para {
+  margin-bottom: 40px;
 }
 .contact {
   display: flex;
+  gap: 100px;
 }
 .fa-brands {
   margin-right: 10px;
   color: #fd6e0a;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 18px 30px;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  border: transparent;
 }
